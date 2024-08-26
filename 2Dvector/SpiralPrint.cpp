@@ -7,6 +7,10 @@ Again repeate the same for the starting row from endcolumn to 0;
 */
 
 //This is a very good and more likely asked question in interview
+#include <iostream>
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& v) {
