@@ -7,7 +7,9 @@
 4. If target is lesser than the element that means u need to move to lower value of column.
 */
 
-
+#include <iostream>
+#include <vector>
+using namespace std;
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {

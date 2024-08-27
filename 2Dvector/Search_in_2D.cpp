@@ -13,6 +13,7 @@ this is new thing in this question:
 //In this question the matrix is both sorted in left and bottom direction
 
 //Best approach
+
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -52,6 +53,9 @@ public:
        return 0;
     }
 };
+#include <iostream>
+#include <vector>
+using namespace std;
 
 //My non Effective Approach
 
