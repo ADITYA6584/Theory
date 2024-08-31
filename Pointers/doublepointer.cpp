@@ -20,5 +20,5 @@ int main() {
     cout << a << endl;
     cout << * p << endl;
     cout << ** q << endl;
-    return 0;
+    return 0;    
 }
