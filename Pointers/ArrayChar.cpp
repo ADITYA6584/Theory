@@ -36,7 +36,7 @@ int main()
     char c = 'a';
     char *u= &c;
     cout<<*u<<"  "<<u<<endl;   //It will print anything untill it will get null char in the memory box
-    
+    cout<<"End"<<endl;
 
     return 0;
 }
