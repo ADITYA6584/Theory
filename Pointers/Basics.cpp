@@ -23,7 +23,7 @@ int main()
     /*int *p2;
     cout<<p2<<"  "<<*p2;
     
-    int *p1 = 0;
+    int *p1 = 0;    //Null pointer
     cout<<*p1;
     cout<<endl;
     */
@@ -52,7 +52,7 @@ int main()
     cout<<*z<<endl;
     cout<<x<<endl;
 
-    //Copying the pointer****************************************************************************************
+    //Copying from the pointer****************************************************************************************
     
     int check = 11;
     int *x1 = &check;

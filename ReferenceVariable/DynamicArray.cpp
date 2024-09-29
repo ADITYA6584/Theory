@@ -21,6 +21,12 @@ int main()
     {
         cin>> ptr[i];
     }
+    cout<<endl;
+    for(int i =0;i<num;i++)
+    {
+        cout<<*(ptr+i)<<" ";
+    }
+    cout<<endl;
     int ans=0;
     getsum(ptr,num,ans);
     cout<<"Sum of the array is: "<<ans;
