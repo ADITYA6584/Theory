@@ -44,6 +44,12 @@ class Hero
         cout<<"Hero name :"<<name<<endl;
         cout<<"Hero Number :"<<hero_no<<endl;
     }
+
+    //Destructor
+    ~Hero()
+    {
+        cout<<"Destructor is called: "<<endl;
+    }
 };
 
 int main()

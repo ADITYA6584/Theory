@@ -28,6 +28,12 @@ class Electronic
         cout<<"Trending "<<this->trending<<endl;
         return ;
     }
+
+    //Destructor
+    ~Electronic()
+    {
+        cout<<"Destructor is called: "<<endl;
+    }
 };
 
 
