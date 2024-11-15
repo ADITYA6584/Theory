@@ -41,10 +41,10 @@ class Electronic
         this->power = h.power;
         this->trending = h.trending;
         this->type = h.type;
-        
+
         char *copyname = new char[100];
         strcpy(copyname,h.name);
-        //Creating a new array
+        //copying
         strcpy(this->name , copyname);
     }
 
