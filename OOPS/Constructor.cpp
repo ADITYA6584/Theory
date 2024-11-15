@@ -25,7 +25,7 @@ class Vehicle
     string usage;
     
     //Static funtion
-    static int staticfuntion();
+    static int staticfuntion()
     {
         cout<<"Using static funtion: "<<time<<endl;
         // cout<<name<<endl;        //this will give error becz name is not a static member:
