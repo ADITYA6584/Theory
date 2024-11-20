@@ -20,5 +20,23 @@ int main() {
     cout << a << endl;
     cout << * p << endl;
     cout << ** q << endl;
+
+    cout <<"**************************************************************************"<<endl;
+
+    //Printing the value of a;
+    cout<<a<<endl;
+    cout<<*p<<endl;
+    cout<<**q<<endl;
+
+    cout<<"***************************************************************************"<<endl;
+    cout<<"Trying to print the value of address of a"<<endl;
+    cout<<&a<<endl;
+    cout<<p<<endl;
+    cout<<*q<<endl;
+
+    cout<<"***************************************************************************"<<endl;
+    cout<<&p<<endl;
+    cout<<q<<endl;
+
     return 0;    
 }
